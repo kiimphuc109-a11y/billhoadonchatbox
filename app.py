@@ -20,7 +20,7 @@ st.set_page_config(
 st.title("🧋 Quán Trà Sữa")
 st.subheader("Hệ thống tính hóa đơn quán trà sữa")
 
-st.write("📍 Địa chỉ quán: 1119B Đại lộ Bình Dương")
+st.write("📍 Địa chỉ quán: 109 Bình Dương")
 
 st.markdown("---")
 
@@ -196,7 +196,7 @@ if question:
 
     if "địa chỉ" in q:
         st.success(
-            "📍 Quán ở đừờng 109 Bình Dương."
+            "📍 Quán 109 Bình Dương."
         )
 
     elif "giờ mở cửa" in q:
@@ -227,7 +227,7 @@ if st.button("💳 THANH TOÁN"):
 
     invoice = f"""
 Quán Trà Sữa
-Địa chỉ: 109 Đại lộ Bình Dương
+Địa chỉ: 109 Bình Dương
 
 Thời gian:
 {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}

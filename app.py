@@ -79,6 +79,28 @@ loai_tra = st.selectbox(
 )
 
 gia_tra = tra_sua[loai_tra]
+# =========================
+# CHỌN SIZE
+# =========================
+
+st.subheader("📏 Chọn size")
+
+size = st.radio(
+    "Size",
+    ["S", "M"],
+    horizontal=True
+)
+
+# Tính giá theo size
+gia_tra = gia_tra_goc + gia_size[size]
+
+st.write(
+    f"💰 Giá **Size {size}**: "
+    f"**{format_money(gia_tra)} / ly**"
+)
+# =========================
+# SỐ LƯỢNG
+# =========================
 
 so_luong = st.number_input(
     "Số lượng",

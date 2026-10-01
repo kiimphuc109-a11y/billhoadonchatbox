@@ -46,7 +46,7 @@ def format_money(number):
 # =========================
 # TIÊU ĐỀ
 # =========================
-st.title("🧋 QUẢN LÝ BILL TRÀ SỮA")
+st.title("🧋 QUÁN TRÀ SỮA")
 st.write("Nhập thông tin đơn hàng bên dưới")
 
 st.divider()
